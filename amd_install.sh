@@ -91,7 +91,7 @@ case $opt in
         version="19.20-812932-ubuntu-18.04";break	
     ;;
 	"20.30-1109583-ubuntu-18.04")
-	wget https://drivers.amd.com/drivers/linux/amdgpu-pro-20.30-1109583-ubuntu-18.04.tar.xz
+	wget https://downloader.disk.yandex.ru/disk/d6255b317a1cd0b9e99193bc6cff997bd2bf7955563c117bad0c4ef06486e566/5f979e5a/q9eHMnZ_lLoJ9U0BdLxzOmznRRhJTkx8sHXX8MsLhkLJ9qn9pcb7Vxel6JgV-eTlCAAwYGraHeBF3UKasMoz8A%3D%3D?uid=0&filename=amdgpu-pro-20.30-1109583-ubuntu-18.04.tar.xz&disposition=attachment&hash=0BjVuTu%2BDYheDnrFqvLf82GmgWERuh0Yr2w6%2BZ/HhWvFT2xDFxPC2f5C3TiaOr0vq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fx-xz&owner_uid=941437701&fsize=339323956&hid=fb29cfb32cc52bae14cbc5b4aa79477f&media_type=unknown&tknv=v2/amdgpu-pro-20.30-1109583-ubuntu-18.04.tar.xz
         version="20.30-1109583-ubuntu-18.04";break
     ;;
 	"19.50-967956-ubuntu-18.04")
