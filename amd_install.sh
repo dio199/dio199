@@ -13,7 +13,7 @@ cd /hive-drivers-pack/
 echo "Please note Drivers with the 18.04 suffix require an OS upgrade, or On Hiveos u can download the latest beta from http://download.hiveos.farm/ and install on a fresh usb."
 PS3='Please enter your choice Drivers: '
 
-options=("16.40-348864-ubuntu-16.04" "16.60-379184-ubuntu-16.04" "17.10-429170-ubuntu-16.04" "17.10-450821-ubuntu-16.04" "17.30-458935-ubuntu-16.04" "17.30-465504-ubuntu-16.04" "17.40-492261-ubuntu-16.04" "17.40-483984-ubuntu-16.04" "17.50-511655-ubuntu-16.04" "18.10-572953-ubuntu-16.04" "18.20-606296-ubuntu-18.04" "18.30-641594-ubuntu-18.04" "18.30-641594-ubuntu-16.04" "18.40-673869-ubuntu-16.04" "18.40-697810-ubuntu-18.04" "18.50-725072-ubuntu-18.04" "19.10-785425-ubuntu-18.04" "19.20-812932-ubuntu-18.04" "19.30-838629-ubuntu-18.04" "19.50-967956-ubuntu-18.04" "Quit")
+options=("16.40-348864-ubuntu-16.04" "16.60-379184-ubuntu-16.04" "17.10-429170-ubuntu-16.04" "17.10-450821-ubuntu-16.04" "17.30-458935-ubuntu-16.04" "17.30-465504-ubuntu-16.04" "17.40-492261-ubuntu-16.04" "17.40-483984-ubuntu-16.04" "17.50-511655-ubuntu-16.04" "18.10-572953-ubuntu-16.04" "18.20-606296-ubuntu-18.04" "18.30-641594-ubuntu-18.04" "18.30-641594-ubuntu-16.04" "18.40-673869-ubuntu-16.04" "18.40-697810-ubuntu-18.04" "18.50-725072-ubuntu-18.04" "19.10-785425-ubuntu-18.04" "19.20-812932-ubuntu-18.04" "20.30-1109583-ubuntu-18.04" "19.50-967956-ubuntu-18.04" "Quit")
 
 select opt in "${options[@]}"
 do
@@ -91,7 +91,7 @@ case $opt in
         version="19.20-812932-ubuntu-18.04";break	
     ;;
 	"20.30-1109583-ubuntu-18.04")
-	wget https://downloader.disk.yandex.ru/disk/d6255b317a1cd0b9e99193bc6cff997bd2bf7955563c117bad0c4ef06486e566/5f979e5a/q9eHMnZ_lLoJ9U0BdLxzOmznRRhJTkx8sHXX8MsLhkLJ9qn9pcb7Vxel6JgV-eTlCAAwYGraHeBF3UKasMoz8A%3D%3D?uid=0&filename=amdgpu-pro-20.30-1109583-ubuntu-18.04.tar.xz&disposition=attachment&hash=0BjVuTu%2BDYheDnrFqvLf82GmgWERuh0Yr2w6%2BZ/HhWvFT2xDFxPC2f5C3TiaOr0vq/J6bpmRyOJonT3VoXnDag%3D%3D&limit=0&content_type=application%2Fx-xz&owner_uid=941437701&fsize=339323956&hid=fb29cfb32cc52bae14cbc5b4aa79477f&media_type=unknown&tknv=v2/amdgpu-pro-20.30-1109583-ubuntu-18.04.tar.xz
+	wget https://cdn-123.anonfiles.com/d2tch3k3p0/2b95c569-1603804716/amdgpu-pro-20.30-1109583-ubuntu-18.04.tar.xz
         version="20.30-1109583-ubuntu-18.04";break
     ;;
 	"19.50-967956-ubuntu-18.04")
