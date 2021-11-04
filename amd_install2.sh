@@ -113,7 +113,6 @@ case $opt in
 	"20.40-1147287-ubuntu-18.04")
 	wget -c --referer='http://support.amd.com/ru-ru/download/desktop?os=Linux+x86' https://drivers.amd.com/drivers/linux/amdgpu-pro-20.40-1147287-ubuntu-18.04.tar.xz
         version="20.40-1147287-ubuntu-18.04";break
-
     ;;
 	"21.30-1286092-ubuntu-18.04")
 	wget -c --referer='http://support.amd.com/ru-ru/download/desktop?os=Linux+x86' https://drivers.amd.com/drivers/linux/amdgpu-pro-21.30-1286092-ubuntu-18.04.tar.xz
@@ -150,4 +149,5 @@ tar -Jxvf amdgpu-pro-$version.tar.xz
 cd amdgpu-pro-$version
 ./amdgpu-pro-install -y
 dpkg -l amdgpu-pro
+
 
